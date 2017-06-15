@@ -98,6 +98,9 @@ bindsym Mod1+Shift+Tab workspace prev
 # focus the child container
 #bindsym $mod+d focus child
 
+# stop auto focus on mouse hover
+focus_follows_mouse no
+
 set $workspace1 "1 "
 set $workspace2 "2 "
 set $workspace3 "3 "
