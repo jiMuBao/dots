@@ -91,6 +91,10 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
+# tabbing through workspace
+bindsym Mod1+Tab workspace next
+bindsym Mod1+Shift+Tab workspace prev
+
 # focus the child container
 #bindsym $mod+d focus child
 
