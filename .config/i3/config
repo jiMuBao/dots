@@ -95,8 +95,8 @@ bindsym $mod+a focus parent
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
 
-bindsym $mod+Shift+w move workspace to output left
-bindsym $mod+Shift+e move workspace to output right
+bindsym $mod+Shift+bracketleft move workspace to output left
+bindsym $mod+Shift+bracketright move workspace to output right
 
 # focus the child container
 #bindsym $mod+d focus child
