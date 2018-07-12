@@ -2,5 +2,8 @@
 
  - To sync latest changes on dotfiles to repo, run the following command
 
-	rsync -vra --existing source destination
+	rsync -vra --existing source(from) destination(to)
+	rsync -var --existing ./ dots
+
+	
  

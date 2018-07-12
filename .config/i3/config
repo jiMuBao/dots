@@ -94,7 +94,7 @@ bindsym $mod+a focus parent
 
 # tabbing through workspace
 #bindsym $mod+Tab workspace next
-bindsym $mod+Tab focus parent; focus child
+#bindsym $mod+Tab focus parent; focus child
 #bindsym $mod+Shift+Tab workspace prev
 
 bindsym $mod+Shift+bracketleft move workspace to output left
@@ -235,4 +235,3 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 #gaps inner all set 0
 #gaps outer all set 0
-
