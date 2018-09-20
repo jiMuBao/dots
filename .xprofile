@@ -9,5 +9,5 @@ export XMODIFIERS=@im=fcitx
 xset -b
 sleep 1
 .screenlayout/work.sh &
-synergyc 10.0.0.45 &
+synergyc 10.0.1.16 &
 

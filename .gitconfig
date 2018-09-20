@@ -1,0 +1,14 @@
+[user]
+	email = jim4nz@gmail.com
+	name = Jim Yang
+[push]
+	default = simple
+
+[alias]
+        ignore = !git update-index --assume-unchanged 
+        unignore = !git update-index --no-assume-unchanged
+        ignored = !git ls-files -v | grep ^[a-z]
+	skip =  !git update-index --skip-worktree
+	unskip = !git update-index --no-skip-worktree
+	skipped = !git ls-files -v . | grep ^S
+	lg = !git log --color --pretty=format:'%Cred%h%Creset -%Cgreen(%cr) %C(bold blue)<%an>%Creset -%C(yellow)%d%Creset %s' --abbrev-commit

@@ -111,6 +111,7 @@ bindsym $mod+BackSpace scratchpad show
 
 # stop auto focus on mouse hover
 focus_follows_mouse no
+focus_on_window_activation focus
 
 set $workspace1 "1 "
 set $workspace2 "2 "
