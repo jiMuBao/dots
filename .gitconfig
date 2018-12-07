@@ -11,4 +11,5 @@
 	skip =  !git update-index --skip-worktree
 	unskip = !git update-index --no-skip-worktree
 	skipped = !git ls-files -v . | grep ^S
-	lg = !git log --color --pretty=format:'%Cred%h%Creset -%Cgreen(%cr) %C(bold blue)<%an>%Creset -%C(yellow)%d%Creset %s' --abbrev-commit
+	ls = !git log --color --pretty=format:'%Cred%h%Creset -%Cgreen(%cr) %C(bold blue)<%an>%Creset -%C(yellow)%d%Creset %s' --abbrev-commit
+	tagDate = !git tag -l --format='%(creatordate:short) | %(refname:short)' | sort
