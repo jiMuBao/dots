@@ -2,3 +2,5 @@
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 source /usr/share/nvm/init-nvm.sh
+
+. ~/.bash.d/cht.sh
