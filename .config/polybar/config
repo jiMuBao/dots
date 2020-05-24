@@ -83,6 +83,13 @@ monitor = HDMI-1
 modules-center = 
 modules-right = filesystem volume xkeyboard memory cpu battery temperature date powermenu
 
+[bar/single]
+inherit = barStyle/common
+monitor = eDP-1
+
+modules-center = 
+modules-right = filesystem volume xkeyboard memory cpu battery temperature date powermenu
+
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:30:...%
