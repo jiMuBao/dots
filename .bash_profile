@@ -23,6 +23,10 @@ case $- in
       *) return;;
 esac
 
+# Prevent file overwrite on stdout redirection
+# Use `>|` to force redirection to an existing file
+set -o noclobber
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 # HISTCONTROL=ignoreboth

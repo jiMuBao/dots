@@ -14,3 +14,5 @@
 	ls = !git log --color --pretty=format:'%Cred%h%Creset -%Cgreen(%cr) %C(bold blue)<%an>%Creset -%C(yellow)%d%Creset %s' --abbrev-commit
 	tagDate = !git tag -l --format='%(creatordate:short) | %(refname:short)' | sort
 	checkoutr = checkout
+[pull]
+	rebase = false

@@ -64,7 +64,7 @@ modules-left = i3
 
 [bar/main]
 inherit = barStyle/common
-monitor = eDP-1
+monitor = eDP1
 
 tray-position = right
 tray-padding = 2
@@ -74,11 +74,11 @@ tray-padding = 2
 [bar/example]
 inherit = barStyle/common
 ;monitor = ${env:MONITOR:HDMI-1}
-monitor = DP-1
+monitor = DP1
 
 [bar/example2]
 inherit = barStyle/common
-monitor = HDMI-1
+monitor = HDMI1
 
 modules-center = 
 modules-right = filesystem volume xkeyboard memory cpu battery temperature date powermenu
