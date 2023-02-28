@@ -1,0 +1,58 @@
+items:
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: "#090300"
+        foreground: "#a5a2a2"
+      cursor:
+        text: "#090300"
+        cursor: "#a5a2a2"
+      normal:
+        black: "#090300"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#a5a2a2"
+      bright:
+        black: "#5c5855"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#f7f7f7"
+  - theme: 3024.dark
+colors:
+  primary:
+    background: '0x1e2030'
+    foreground: '0x7f85a3'
+
+  cursor:
+    text: '0x7f85a3'
+    cursor: '0x808080'
+
+  normal:
+    black: '0x444a73'
+    red: '0xff5370'
+    green: '0x4fd6be'
+    yellow: '0xffc777'
+    blue: '0x3e68d7'
+    magenta: '0xfc7b7b'
+    cyan: '0x86e1fc'
+    white: '0xd0d0d0'
+
+  bright:
+    black: '0x828bb8'
+    red: '0xff98a4'
+    green: '0xc3e88d'
+    yellow: '0xffc777'
+    blue: '0x82aaff'
+    magenta: '0xff966c'
+    cyan: '0xb4f9f8'
+    white: '0x5f8787'
+theme: Moonlight-II-VSCode
