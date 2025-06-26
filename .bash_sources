@@ -1,0 +1,12 @@
+
+___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
+source /usr/share/nvm/init-nvm.sh
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/jimubao/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/home/jimubao/Downloads/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/jimubao/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/home/jimubao/Downloads/google-cloud-sdk/completion.bash.inc'; fi
+
+source /usr/share/fzf/key-bindings.bash
+source /usr/share/fzf/completion.bash
