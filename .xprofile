@@ -1,13 +1,3 @@
-#source .fehbg 
-#xrandr --output eDP-1 --primary --mode 1920x1080 --pos 1200x0 --rotate normal --output HDMI-2 --off
-# .xprofile or .xinitrc
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx
-
-# remove system beep sound
-xset -b
-sleep 1
-.screenlayout/work.sh &
-synergyc 10.0.1.16 &
-
+export XMODIFIERS="@im=fcitx"
