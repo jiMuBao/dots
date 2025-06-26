@@ -2,6 +2,6 @@
 	email = jim4nz@gmail.com
 	name = Jim Yang
 [log]
-	date = local
+	date = default
 [safe]
 	directory = /home/jimubao/Projects/cb
